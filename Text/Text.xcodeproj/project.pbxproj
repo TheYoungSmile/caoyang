@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		ADC670461CBFDC2000AD561B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADC670451CBFDC2000AD561B /* main.cpp */; };
+		ADC6704E1CBFE23D00AD561B /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADC6704C1CBFE23D00AD561B /* Point.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		ADC670421CBFDC2000AD561B /* Text */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Text; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC670451CBFDC2000AD561B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		ADC6704C1CBFE23D00AD561B /* Point.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Point.cpp; sourceTree = "<group>"; };
+		ADC6704D1CBFE23D00AD561B /* Point.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Point.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				ADC670451CBFDC2000AD561B /* main.cpp */,
+				ADC6704C1CBFE23D00AD561B /* Point.cpp */,
+				ADC6704D1CBFE23D00AD561B /* Point.hpp */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADC6704E1CBFE23D00AD561B /* Point.cpp in Sources */,
 				ADC670461CBFDC2000AD561B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,6 +243,7 @@
 				ADC6704B1CBFDC2000AD561B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
